@@ -3,17 +3,18 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Work+Sans" rel="stylesheet">
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/scripts.js"></script>
     <meta charset="utf-8">
-    <title>Cosme</title>
+    <title>Cosmé</title>
   </head>
   <body>
 
     <div class="container">
-      <h1>Cosme</h1>
-      <div id="entry">
+      <h1><a href="#">Cosmé</a></h1>
+      <div class="card" id="entry">
         <form id="orderForm">
 
           <div class="form-group row">
@@ -62,7 +63,7 @@
             <div class="col-2">
             </div>
             <div class="col-10" id="submitButton">
-              <button type="submit" class="btn btn-info" data-toggle="modal" data-target="#myModal">Submit</button>
+              <button type="submit" class="btn btn-dark" data-toggle="modal" data-target="#myModal">Submit</button>
             </div>
           </div>
         </form>
@@ -77,8 +78,8 @@
             </div>
             <div class="modal-body">
               <p>Thank you <span class="bold"><span class="name"></span></span>, your purchase has been confirmed. You will receive an email when it has been shipped.</p>
-              <p>Item Ordered: <span class="product"></span></p>
-              <p>Address: <span class="address"></span>, <span class="city"></span>, <span class="state"></span> <span class="zip"></span></p>
+              <p><span class="bold">Item Ordered: </span><span class="product"></span></p>
+              <p><span class="bold">Address: </span><span class="address"></span>, <span class="city"></span>, <span class="state"></span> <span class="zip"></span></p>
 
 
             </div>
