@@ -18,8 +18,6 @@ $(document).ready(function() {
     $(".state").text(stateInput);
     $(".zip").text(zipInput);
 
-    $("#confirmation").show();
-
     event.preventDefault();
   });
 });
